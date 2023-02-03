@@ -1,0 +1,210 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CalculatorService/1.0.0": {
+        "dependencies": {
+          "CalculatorDmain": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "runtime": {
+          "CalculatorService.dll": {}
+        }
+      },
+      "AngouriMath/1.3.0": {
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.9.2",
+          "GenericTensor": "1.0.4",
+          "HonkSharp": "1.0.1",
+          "PeterO.Numbers": "1.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AngouriMath.dll": {
+            "assemblyVersion": "0.1.3.0",
+            "fileVersion": "0.1.3.0"
+          }
+        }
+      },
+      "Antlr4.Runtime.Standard/4.9.2": {
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "assemblyVersion": "4.9.2.0",
+            "fileVersion": "4.9.2.0"
+          }
+        }
+      },
+      "GenericTensor/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/GenericTensor.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "HonkSharp/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/HonkSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "PeterO.Numbers/1.8.0": {
+        "runtime": {
+          "lib/netstandard1.0/Numbers.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.2.3": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.2.3",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.2.3",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.2.3": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "CalculatorDmain/1.0.0": {
+        "dependencies": {
+          "AngouriMath": "1.3.0"
+        },
+        "runtime": {
+          "CalculatorDmain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngouriMath/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hrrlyu7MbWgWj1JzalsAAvj3eJZyCbijWHXijYIHuLbMIgxROWzjZtKX2WefmE70Bv74bEBqSO4rk6XzFts27w==",
+      "path": "angourimath/1.3.0",
+      "hashPath": "angourimath.1.3.0.nupkg.sha512"
+    },
+    "Antlr4.Runtime.Standard/4.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NH/CZeP56ERa+1w7HqlQKXMVBlkNHOWrjF3holW5XgUdyDP36Mw0SynoNj6jD7UNqhxc+4YYfOWXajO3U1Q2dw==",
+      "path": "antlr4.runtime.standard/4.9.2",
+      "hashPath": "antlr4.runtime.standard.4.9.2.nupkg.sha512"
+    },
+    "GenericTensor/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQsqRbJiwFH37OjriIKQx3VWKuRJ09s/SZdwqL0FreJbFSpbpY1UKeiP8RWsb88QcS2DgyicheyvdJ9YgLnUpQ==",
+      "path": "generictensor/1.0.4",
+      "hashPath": "generictensor.1.0.4.nupkg.sha512"
+    },
+    "HonkSharp/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zpmfpQIRdotwmpOynunGAM5lStn2luMTfPXhztQonwREWSP0GGL32b/Bk1PhFZG/pH7K1d2NR1UG0gQ+4yMNpQ==",
+      "path": "honksharp/1.0.1",
+      "hashPath": "honksharp.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "PeterO.Numbers/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8ffDC+jwF1XcA+VfugZO1+wFClOvWjyXzXrstkpdjkgH2LgAfnEZIAFQbKgidHtTh5RAfwhCtH3MSfgZXxXwA==",
+      "path": "petero.numbers/1.8.0",
+      "hashPath": "petero.numbers.1.8.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
+      "path": "swashbuckle.aspnetcore/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.6.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOF7j1sL0bWm8g/qqHVPCvkO3JlVvUIB8WfC98kSh6BT5y5DAnBNctfac7XR5EZf+eD7/WasvANncTqwZYfmWQ==",
+      "path": "swashbuckle.aspnetcore.swagger/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Xq7WdMCCfcXlnbLJVFNgY8ITdP2TRYIlpbt6IKzDw5FwFxdi9lBfNDtcT+/wkKwX70iBBFmXldnnd02/VO72A==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    },
+    "CalculatorDmain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
